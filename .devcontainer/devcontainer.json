@@ -1,3 +1,14 @@
 {
-  "image": "Dockerfile",
+  "name": "My Dev Container",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "forwardPorts": [],
+  "postCreateCommand": "",
+  "extensions": []
 }
+
