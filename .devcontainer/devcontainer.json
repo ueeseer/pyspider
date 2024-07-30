@@ -2,7 +2,7 @@
   "name": "My Dev Container",
   "build": {
     "dockerfile": "Dockerfile",
-    "context": ".."
+    "context": "path/to/context"
   },
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash"
